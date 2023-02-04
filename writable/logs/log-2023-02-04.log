@@ -1,0 +1,26 @@
+CRITICAL - 2023-02-04 14:35:57 --> Undefined variable $title
+in APPPATH\Views\layout\_layout.php on line 14.
+ 1 APPPATH\Views\layout\_layout.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\_layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Inicio.php(13): view()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Inicio->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-04 14:36:25 --> Undefined variable $title
+in APPPATH\Views\layout\_layout.php on line 14.
+ 1 APPPATH\Views\layout\_layout.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\_layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Inicio.php(13): view()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Inicio->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
