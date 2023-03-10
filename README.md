@@ -1,2 +1,1 @@
-# Loucos-Por-Pessoas-2.0
- 
+# Loucos Por Pessoas 2.0
